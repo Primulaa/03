@@ -2,8 +2,7 @@ const staticCacheName = 'site-static-v1';
 const assets = [
   '/03/',
   '/03/index.html',
-  '/assets/js/ui.js',
-  '/assets/css/main.css',
+  
   ];
   
 // событие install
