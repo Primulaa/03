@@ -1,7 +1,7 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
   '/03/',
-  '/03/index.html',
+  
   
   ];
   
