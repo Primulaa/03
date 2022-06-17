@@ -1,12 +1,12 @@
 {
   "manifest_package": "org.chromium.webapk.test",
-  "scope_url": "/",
+  "scope_url": "/03/",
   "intent_filters": {
     "scope_url_scheme": "https",
-    "scope_url_host": "/",
-    "scope_url_path": "/"
+    "scope_url_host": "/03/",
+    "scope_url_path": "/03/"
   },
-  "start_url": "/",
+  "start_url": "/03/",
   "display_mode": "standalone",
   "orientation": "portrait",
   "theme_color": "2147483648L",
