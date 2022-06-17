@@ -1,22 +1,39 @@
 {
-  "manifest_package": "org.chromium.webapk.test",
-  "scope_url": "/03/",
-  "intent_filters": {
-    "scope_url_scheme": "https",
-    "scope_url_host": "/03/",
-    "scope_url_path": "/03/"
-  },
-  "start_url": "/03/",
-  "display_mode": "standalone",
-  "orientation": "portrait",
-  "theme_color": "2147483648L",
-  "background_color": "2147483648L",
-  "icon_urls_and_icon_murmur2_hashes": "/",
-  "web_manifest_url": "/03/manifest.json",
-  "version_code": "1",
-  "version_name": "1.0",
-  "bound_webapk": {
-    "runtime_host": "org.chromium.chrome",
-    "runtime_host_application_name": "Chromium"
+    "name": "Name PWAConf",
+    "short_name": "Short name PWAConf",
+    "start_url": "/03/index02",
+    "display": "standalone",
+    "background_color": "#2A3443",
+    "description": "Description A demo app for a fictional conference",
+    "theme_color": "#2A3443",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "/03/img/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+      {
+        "src": "/03/img/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+  "generated":"",
+    "manifest_package":"org.chromium.webapk.test",
+    "scope_url":"/",
+    "intent_filters":{
+        "scope_url_scheme":"https",
+        "scope_url_host":"/",
+        "scope_url_path":"/"
+    },
+    "display_mode":"standalone",
+    "web_manifest_url":"https://primulaa.github.io/03/manifest.json",
+    "version_code":"1",
+    "version_name":"1.0",
+    "bound_webapk":{
+        "runtime_host":"org.chromium.chrome",
+        "runtime_host_application_name":"Chromium"
+    }
   }
-}
